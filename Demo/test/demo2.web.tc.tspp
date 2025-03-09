@@ -1,0 +1,35 @@
+>>testDataType: undefined
+>>summary: 
+>>tags: 
+>>feature: 
+>>ticketUrl: 
+>>importSource: 
+>>priority: 
+>>aiRequestId: 
+
+
+--Open URL-- [[https://www.akasaair.com/]] 
+--Click on-- {{web > BookFlightsOnlinewithAkasaAirataffordablefares_ > From}} 
+--Click on-- {{web > BookFlightsOnlinewithAkasaAirataffordablefares_ > location}}(( label: tes )) 
+--Click on-- {{web > BookFlightsOnlinewithAkasaAirataffordablefares_ > To}} 
+--Click on-- {{web > BookFlightsOnlinewithAkasaAirataffordablefares_ > Zayed_International_Airport}} 
+--Click on-- {{web > BookFlightsOnlinewithAkasaAirataffordablefares_ > To}} 
+--Click on-- {{web > BookFlightsOnlinewithAkasaAirataffordablefares_ > Sardar_VallabhBhai_Patel_Inter}} 
+--Click on-- {{web > BookFlightsOnlinewithAkasaAirataffordablefares_ > DepartureDate}} 
+--Click on-- {{web > BookFlightsOnlinewithAkasaAirataffordablefares_ > One_Way}} 
+--Click on-- {{web > BookFlightsOnlinewithAkasaAirataffordablefares_ > _27}} 
+--Click on-- {{web > BookFlightsOnlinewithAkasaAirataffordablefares_ > Search_Flights}} 
+--Click on-- {{web > FlightSearch-SearchFlightTimings_Prices_AkasaAir > Lowest_fare}} 
+--Click on-- {{web > FlightSearch-SearchFlightTimings_Prices_AkasaAir > _2_630}} 
+--Press keyboard keys-- [[Alt]] --on-- {{web > BookingStatus-AirlineTickets_AkasaAir > Book}} 
+--Click on-- {{web > FlightSearch-SearchFlightTimings_Prices_AkasaAir > Select}} 
+--Press keyboard keys-- [[Alt]] --on-- {{web > FlightSearch-SearchFlightTimings_Prices_AkasaAir > Select}} 
+--Click on-- {{web > FlightSearch-SearchFlightTimings_Prices_AkasaAir > Select}} 
+--Click on-- {{web > FlightSearch-SearchFlightTimings_Prices_AkasaAir > Lowest_fare_1}} 
+--Click on-- {{web > FlightSearch-SearchFlightTimings_Prices_AkasaAir > Lowest_fare}} 
+--Click on-- {{web > FlightSearch-SearchFlightTimings_Prices_AkasaAir > Lowest_fare_1_2}} 
+--Press keyboard keys-- [[Alt]] --on-- {{web > BookingStatus-AirlineTickets_AkasaAir > Book}} 
+--Click on-- {{web > FlightSearch-SearchFlightTimings_Prices_AkasaAir > Select}} 
+--Click on-- {{web > FlightSearch-SearchFlightTimings_Prices_AkasaAir > Select_1}} 
+--Click on-- {{web > FlightSearch-SearchFlightTimings_Prices_AkasaAir > Select_1_2}} 
+

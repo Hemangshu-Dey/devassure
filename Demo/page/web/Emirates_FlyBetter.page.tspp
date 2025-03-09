@@ -1,0 +1,21 @@
+>>summary: 
+>>recorderName: Emirates|FlyBetter
+
+==Accept;CSS;#onetrust-accept-btn-handler;Button;[XPATH://button[text()="Accept"]^^XPATH://div[@id="onetrust-button-group"]//button[@id="onetrust-accept-btn-handler"]];[Accept];[Emirates|FlyBetter];;==
+==Arrival_airport;CSS;[for='field-a8418bda-63fe-429a-8907-58766691e364'];;[];[Arrival_airport];[Emirates|FlyBetter];;==
+==Adelaide_Australia;CSS;.show [aria-label='Adelaide\,\ Australia\ Adelaide\ Airport\ ADL\ Operated\ by\ Emirates'];;[];[Adelaide_Australia];[Emirates|FlyBetter];;==
+==js_one_way;CSS;.js-one-way;;[XPATH://label[contains(@class, 'one-way')]//input[contains(@class, 'js-one-way')]];[js_one_way];[Emirates|FlyBetter];;==
+==_15;CSS;.calendar__day--over button;Button;[];[_15];[Emirates|FlyBetter];;==
+==search_flight_class;CSS;#field-search-flight-class;;[CSS:[name='search-flight-class']^^XPATH://div[@data-section="class-flight"]//input[@id="field-search-flight-class"]];[search_flight_class];[Emirates|FlyBetter];;==
+==Economy_Class;CSS;.show .active;;[];[Economy_Class];[Emirates|FlyBetter];;==
+==Search_flights;CSS;[action='\/booking\/search-results\/\?pageurl\=\/IBE\&pub\=\/in\/english\&j\=f\&section\=IBE'] .cta;Button;[];[Search_flights];[Emirates|FlyBetter];;==
+==Departure_airport;CSS;#field-6d67c699-d41a-4a3f-9f5d-1772c950ad05;Input;[XPATH://section[contains(@class, 'search-flight__section')]//input[@id="field-6d67c699-d41a-4a3f-9f5d-1772c950ad05"]];[Departure_airport];[Emirates|FlyBetter];;==
+==Bengaluru_Bangalore_India;CSS;.show [aria-labelledby='listCurrentLocation'] .dropdown__link;;[];[Bengaluru_Bangalore_India];[Emirates|FlyBetter];;==
+==Arrival_airport_1;CSS;#field-5491dc3f-3f89-4d0e-ac2a-1c8827d94e3a;Input;[XPATH://section[contains(@class, 'search-flight__section')]//input[@id="field-5491dc3f-3f89-4d0e-ac2a-1c8827d94e3a"]];[Arrival_airport];[Emirates|FlyBetter];;==
+==clear_Departure_airport;CSS;.selected[data-only-local-origins] .clear-x-mobile;Button;[];[clear_Departure_airport];[Emirates|FlyBetter];;==
+==Ahmedabad_India;CSS;.show [aria-label='Ahmedabad\,\ India\ Sardar\ Vallabhbhai\ Patel\ International\ Airport\ AMD\ Operated\ by\ Emirates'];;[];[Ahmedabad_India];[Emirates|FlyBetter];;==
+
+
+
+
+

@@ -1,0 +1,6 @@
+>>summary: 
+>>recorderName: RazorpayCheckout
+
+==checkout_close;CSS;[data-testid='checkout-close'];Button;[CSS:[title='Close Checkout']^^CSS:[title='Close\ Checkout']^^XPATH://div[@id="main-container"]//button[@data-testid="checkout-close"]];[checkout_close];[RazorpayCheckout];;==
+==Yes_exit;CSS;[data-testid='confirm-positive'];Button;[XPATH://button[text()="Yes, exit"]^^CSS:.bg-cta^^CSS:.text-on-cta^^XPATH://div[contains(@class, 'd:justify-center')]//button[@data-testid="confirm-positive"]];[Yes_exit];[RazorpayCheckout];;==
+

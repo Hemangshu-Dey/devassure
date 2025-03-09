@@ -1,0 +1,8 @@
+>>summary: 
+>>recorderName: Payment|EmiratesIndia
+
+==Please_tick_this_box_to_indica;CSS;.checkbox-field__label;;[XPATH://div[contains(@class, 'checkbox-field')]//label[contains(@class, 'checkbox-field__label')]];[Please_tick_this_box_to_indica];[Payment|EmiratesIndia];;==
+==Purchase_now;CSS;.confirmation__back_cta;Button;[CSS:.call-to-action__primary^^CSS:.nofocus^^XPATH://div[contains(@class, 'confirmation__cta-wrapper')]//button[contains(@class, 'confirmation__back_cta')]];[Purchase_now];[Payment|EmiratesIndia];;==
+
+
+

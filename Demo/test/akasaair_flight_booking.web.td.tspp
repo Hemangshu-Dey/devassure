@@ -1,0 +1,22 @@
+{
+    "columns": [
+        {
+            "type": "text",
+            "name": "Source"
+        },
+        {
+            "type": "text",
+            "name": "Destination"
+        }
+    ],
+    "rows": [
+        [
+            "BOM",
+            "AMD"
+        ],
+        [
+            "AMD",
+            "DEL"
+        ]
+    ]
+}

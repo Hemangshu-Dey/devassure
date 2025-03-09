@@ -1,0 +1,25 @@
+>>testDataType: TABLE
+>>summary: Demo testing
+>>tags: bookings
+>>feature: 
+>>ticketUrl: 
+>>importSource: 
+>>priority: 0
+>>aiRequestId: 
+
+
+--Open URL-- [[https://www.akasaair.com/]] 
+--Click on-- {{web > BookFlightsOnlinewithAkasaAirataffordablefares_ > From}} 
+--Click on-- {{web > BookFlightsOnlinewithAkasaAirataffordablefares_ > location}}(( label: ::testData.Source )) 
+--Click on-- {{web > BookFlightsOnlinewithAkasaAirataffordablefares_ > To}} 
+--Click on-- {{web > BookFlightsOnlinewithAkasaAirataffordablefares_ > location}}(( label: ::testData.Destination )) 
+--Click on-- {{web > BookFlightsOnlinewithAkasaAirataffordablefares_ > DepartureDate}} 
+--Clear text from-- {{web > BookFlightsOnlinewithAkasaAirataffordablefares_ > DepartureDate}} 
+::GetDate = __Common::GetDate > GetDate__ [[5]] 
+--Input value-- ::GetDate:: --in-- {{web > BookFlightsOnlinewithAkasaAirataffordablefares_ > DepartureDate}} 
+#--Click on-- {{web > BookFlightsOnlinewithAkasaAirataffordablefares_ > _13}}
+--Click on-- {{web > BookFlightsOnlinewithAkasaAirataffordablefares_ > Passenger_s}} 
+--Click on-- {{web > BookFlightsOnlinewithAkasaAirataffordablefares_ > Children_Plus}} 
+--Click on-- {{web > BookFlightsOnlinewithAkasaAirataffordablefares_ > Done}} 
+--Click on-- {{web > BookFlightsOnlinewithAkasaAirataffordablefares_ > Search_Flights}} 
+

@@ -1,0 +1,51 @@
+>>summary: 
+>>recorderName: BookFlightsOnlinewithAkasaAirataffordablefares.
+
+==From;CSS;#From;Input;[CSS:[name='From']^^XPATH://div[contains(@class, 'xl:flex-nowrap')]//input[@id="From"]];[From];[BookFlightsOnlinewithAkasaAirataffordablefares.];;==
+==Mumbai;CSS;#BOM .text-sm;;[];[Mumbai];[BookFlightsOnlinewithAkasaAirataffordablefares.];;==
+==To;CSS;#To;Input;[CSS:[name='To']^^XPATH://div[contains(@class, 'xl:flex-nowrap')]//input[@id="To"]];[To];[BookFlightsOnlinewithAkasaAirataffordablefares.];;==
+==Abu_Dhabi;CSS;#AUH .text-sm;;[];[Abu_Dhabi];[BookFlightsOnlinewithAkasaAirataffordablefares.];;==
+==Passenger_s;CSS;[name='SelectPassengers'];Button;[XPATH://div[contains(@class, 'xl:flex-nowrap')]//button[@name="SelectPassengers"]];[Passenger_s];[BookFlightsOnlinewithAkasaAirataffordablefares.];;==
+==Children_Plus;CSS;[aria-label='Children Plus'];Button;[CSS:[aria-label='Children\ Plus']^^XPATH://div[contains(@class, 'MuiPaper-root')]//button[@aria-label="Children Plus"]];[Children_Plus];[BookFlightsOnlinewithAkasaAirataffordablefares.];;==
+==Done;CSS;[aria-label='Done'];Button;[XPATH://button[text()="Done"]^^XPATH://div[contains(@class, 'MuiPaper-root')]//button[@aria-label="Done"]];[Done];[BookFlightsOnlinewithAkasaAirataffordablefares.];;==
+==Search_Flights;CSS;[name='Search Flights'];Button;[XPATH://button[text()="Search Flights"]^^CSS:[name='Search\ Flights']^^XPATH://div[@aria-label="Label"]//button[@name="Search Flights"]];[Search_Flights];[BookFlightsOnlinewithAkasaAirataffordablefares.];;==
+==Chhatrapati_Shivaji_Maharaj_In;XPATH;//p[text()="Chhatrapati Shivaji Maharaj International Airport"];;[CSS:#BOM .text-xs^^XPATH://li[@id="BOM"]//p[text()="Chhatrapati Shivaji Maharaj International Airport"]];[Chhatrapati_Shivaji_Maharaj_In];[BookFlightsOnlinewithAkasaAirataffordablefares.];;==
+==Ahmedabad;CSS;#AMD > div:nth-child(2);;[];[Ahmedabad];[BookFlightsOnlinewithAkasaAirataffordablefares.];;==
+==DepartureDate;CSS;[placeholder='Departure date'];Input;[CSS:[name='DepartureDate']^^CSS:.react-datepicker-ignore-onclickoutside^^XPATH://button[@name="SelectDepartureDate"]//input[@placeholder="Departure date"]];[DepartureDate];[BookFlightsOnlinewithAkasaAirataffordablefares.];;==
+==_13;CSS;[aria-label='Choose Thursday, March 13th, 2025'];;[CSS:[aria-label='Choose\ Thursday\,\ March\ 13th\,\ 2025']^^XPATH://div[@aria-label="month  2025-03"]//div[@aria-label="Choose Thursday, March 13th, 2025"]];[_13];[BookFlightsOnlinewithAkasaAirataffordablefares.];;==
+==Sardar_VallabhBhai_Patel_Inter;XPATH;//p[text()="Sardar VallabhBhai Patel International Airport"];;[CSS:#AMD .text-xs^^XPATH://li[@id="AMD"]//p[text()="Sardar VallabhBhai Patel International Airport"]];[Sardar_VallabhBhai_Patel_Inter];[BookFlightsOnlinewithAkasaAirataffordablefares.];;==
+==_15;CSS;[aria-label='Choose Saturday, March 15th, 2025'];;[CSS:.react-datepicker__day--015.react-datepicker__day--weekend^^XPATH://div[@aria-label="month  2025-03"]//div[@aria-label="Choose Saturday, March 15th, 2025"]];[_15];[BookFlightsOnlinewithAkasaAirataffordablefares.];;==
+==Ahmedabad_1;CSS;#AMD .text-sm;;[];[Ahmedabad];[BookFlightsOnlinewithAkasaAirataffordablefares.];;==
+==Adult_s_Plus;CSS;[aria-label='Adult(s) Plus'];Button;[CSS:[aria-label='Adult\(s\)\ Plus']^^XPATH://div[contains(@class, 'MuiPaper-root')]//button[@aria-label="Adult(s) Plus"]];[Adult_s_Plus];[BookFlightsOnlinewithAkasaAirataffordablefares.];;==
+==source;text;testData.Source;Input;[];[];[];;==
+==source;text;testData.Source;Input;[];[];[];;==
+==location;XPATH;//*[@id='${label}'];;[];[];[];;==
+==Zayed_International_Airport;XPATH;//p[text()="Zayed International Airport"];;[CSS:#AUH .text-xs^^XPATH://li[@id="AUH"]//p[text()="Zayed International Airport"]];[Zayed_International_Airport];[BookFlightsOnlinewithAkasaAirataffordablefares.];;==
+==One_Way;CSS;[aria-label='widget content'];;[CSS:.ComponentName_FlightBookingWidgetV2^^XPATH://div[@aria-label="card"]//div[@aria-label="widget content"]];[One_Way];[BookFlightsOnlinewithAkasaAirataffordablefares.];;==
+==_27;CSS;[aria-label='Choose Thursday, March 27th, 2025'];;[CSS:[aria-label='Choose\ Thursday\,\ March\ 27th\,\ 2025']^^XPATH://div[@aria-label="month  2025-03"]//div[@aria-label="Choose Thursday, March 27th, 2025"]];[_27];[BookFlightsOnlinewithAkasaAirataffordablefares.];;==
+==BOM;CSS;#BOM;;[XPATH://ul[@id="destinations"]//li[@id="BOM"]];[BOM];[BookFlightsOnlinewithAkasaAirataffordablefares.];;==
+==_8;CSS;[aria-label='Choose Tuesday, April 8th, 2025'];;[CSS:[aria-label='Choose\ Tuesday\,\ April\ 8th\,\ 2025']^^XPATH://div[@aria-label="month  2025-04"]//div[@aria-label="Choose Tuesday, April 8th, 2025"]];[_8];[BookFlightsOnlinewithAkasaAirataffordablefares.];;==
+
+
+
+
+^^Getdate(delta:text) -> text
+>{
+const options = {
+day: '2-digit',
+month: '2-digit',
+year: 'numeric',
+};
+
+const currentDate = new Date();
+const futureDate = new Date(currentDate);
+
+if (delta != 0) {
+futureDate.setDate(Number(futureDate.getDate()) + Number(delta));
+}
+
+const formattedFutureDate = futureDate.toLocaleString('en-GB', options);
+}<
+	--return-- [[formattedFutureDate]] 
+
+^^

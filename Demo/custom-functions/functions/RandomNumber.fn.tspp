@@ -1,0 +1,11 @@
+>>summary: 
+
+
+
+^^Common::RandomNumber(max:number) -> number
+>{
+let number = Math.floor(Math.random() * max);
+}<
+	--return-- [[${number}]] 
+
+^^

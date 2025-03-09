@@ -1,0 +1,19 @@
+>>summary: 
+>>recorderName: Passengerdetails|EmiratesIndia
+
+==Title;CSS;#title_label;;[XPATH://label[text()="Title"]^^XPATH://div[@data-testid="combobox_Title"]//label[@id="title_label"]];[Title];[Passengerdetails|EmiratesIndia];;==
+==Mr;CSS;[data-testid='options_0'];;[XPATH://div[contains(@class, 'auto-suggest__list')]//button[@data-testid="options_0"]];[Mr];[Passengerdetails|EmiratesIndia];;==
+==First_name;CSS;#firstname_label;;[XPATH://label[text()="First name"]];[First_name];[Passengerdetails|EmiratesIndia];;==
+==firstname;CSS;#firstname;Input;[XPATH://span[contains(@class, 'input-field--focus')]//input[@id="firstname"]];[firstname];[Passengerdetails|EmiratesIndia];;==
+==Last_name;CSS;#lastname_label;;[XPATH://label[text()="Last name"]];[Last_name];[Passengerdetails|EmiratesIndia];;==
+==lastname;CSS;#lastname;Input;[XPATH://span[contains(@class, 'input-field--focus')]//input[@id="lastname"]];[lastname];[Passengerdetails|EmiratesIndia];;==
+==Country_territory;CSS;#country-code_label;;[CSS:[aria-label='Country/territory']^^XPATH://label[text()="Country/territory"]^^XPATH://span[contains(@class, 'noto-sans')]//label[@id="country-code_label"]];[Country_territory];[Passengerdetails|EmiratesIndia];;==
+==input_20;CSS;#input_20;Input;[XPATH://div[contains(@class, 'input-autosuggest-container')]//input[@id="input_20"]];[input_20];[Passengerdetails|EmiratesIndia];;==
+==Mobile_number;CSS;#mobile_label;;[XPATH://div[contains(@class, 'contact-card--section')]//label[@id="mobile_label"]];[Mobile_number];[Passengerdetails|EmiratesIndia];;==
+==mobile;CSS;#mobile;Input;[XPATH://span[contains(@class, 'input-field--focus')]//input[@id="mobile"]];[mobile];[Passengerdetails|EmiratesIndia];;==
+==Email_address;CSS;#email_label;;[XPATH://div[contains(@class, 'contact-card--section')]//label[@id="email_label"]];[Email_address];[Passengerdetails|EmiratesIndia];;==
+==email;CSS;#email;Input;[XPATH://span[contains(@class, 'input-field--focus')]//input[@id="email"]];[email];[Passengerdetails|EmiratesIndia];;==
+==Continue_to_Options;CSS;#btnContinue;Button;[XPATH://button[text()="Continue to Options"]^^CSS:.call-to-action__primary^^XPATH://div[contains(@class, 'button-forward')]//button[@id="btnContinue"]];[Continue_to_Options];[Passengerdetails|EmiratesIndia];;==
+
+
+

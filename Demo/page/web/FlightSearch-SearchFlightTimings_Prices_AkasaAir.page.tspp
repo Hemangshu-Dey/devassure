@@ -1,0 +1,20 @@
+>>summary: 
+>>recorderName: FlightSearch-SearchFlightTimings&Prices|AkasaAir
+
+==Select;CSS;#\30 ;Button;[XPATH://div[@aria-label="Flight duration 1h 45m}"]//button[@id="0"]];[Select];[FlightSearch-SearchFlightTimings&Prices|AkasaAir];;==
+==Accept_cookies;CSS;[aria-label='Accept cookies'];Button;[XPATH://button[text()="Accept cookies"]^^CSS:.text-secondary^^CSS:.text-color-secondary^^XPATH://div[contains(@class, 'ml-auto')]//button[@aria-label="Accept cookies"]];[Accept_cookies];[FlightSearch-SearchFlightTimings&Prices|AkasaAir];;==
+==Continue;CSS;[name='continue'];Button;[XPATH://button[text()="Continue"]^^XPATH://section[@id="section_footer"]//button[@name="continue"]];[Continue];[FlightSearch-SearchFlightTimings&Prices|AkasaAir];;==
+==Book_a_Flexi_Fare;CSS;[name='bookFlexi'];Button;[XPATH://button[text()="Book a Flexi Fare"]^^XPATH://div[@id="modalUpgradeToFlexi"]//button[@name="bookFlexi"]];[Book_a_Flexi_Fare];[FlightSearch-SearchFlightTimings&Prices|AkasaAir];;==
+==Lowest_fare;CSS;[aria-label='Flight\ duration\ 1h\ 45m\}'] .px-4;;[];[Lowest_fare];[FlightSearch-SearchFlightTimings&Prices|AkasaAir];;==
+==_2_630;XPATH;//h5[text()="₹2,630"];;[CSS:[aria-label='Flight\ duration\ 1h\ 45m\}'] .listofFlights_fare__ceqC_^^XPATH://div[@aria-label="Flight duration 1h 45m}"]//h5[text()="₹2,630"]];[_2_630];[FlightSearch-SearchFlightTimings&Prices|AkasaAir];;==
+==Lowest_fare_1;CSS;[aria-label='Flight\ duration\ 1h\ 45m\}'] .justify-end;;[];[Lowest_fare];[FlightSearch-SearchFlightTimings&Prices|AkasaAir];;==
+==Lowest_fare_1_2;XPATH;//span[text()="Lowest fare"];;[CSS:.bg-\[\#037e0b\] span^^XPATH://div[@aria-label="Flight duration 1h 45m}"]//span[text()="Lowest fare"]];[Lowest_fare];[FlightSearch-SearchFlightTimings&Prices|AkasaAir];;==
+==Select_1;CSS;#\31 ;Button;[XPATH://div[@aria-label="Flight duration 1h 25m}"]//button[@id="1"]];[Select];[FlightSearch-SearchFlightTimings&Prices|AkasaAir];;==
+==Select_1_2;CSS;#\31 ;Button;[XPATH://div[@aria-label="Flight duration 1h 25m}"]//button[@id="1"]];[Select];[FlightSearch-SearchFlightTimings&Prices|AkasaAir];;==
+
+
+
+
+
+
+

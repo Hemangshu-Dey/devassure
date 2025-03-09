@@ -1,0 +1,58 @@
+>>testDataType: TABLE
+>>summary: Flight Booking
+>>tags: booking, flights
+>>feature: 
+>>ticketUrl: 
+>>importSource: 
+>>priority: 0
+>>aiRequestId: 
+
+
+--Open URL-- [[https://www.akasaair.com/]] 
+--Click on-- {{web > BookFlightsOnlinewithAkasaAirataffordablefares_ > From}} 
+--Click on-- {{web > BookFlightsOnlinewithAkasaAirataffordablefares_ > location}}(( label: ::testData.Source )) 
+--Click on-- {{web > BookFlightsOnlinewithAkasaAirataffordablefares_ > To}} 
+--Click on-- {{web > BookFlightsOnlinewithAkasaAirataffordablefares_ > location}}(( label: ::testData.Destination )) 
+--Click on-- {{web > BookFlightsOnlinewithAkasaAirataffordablefares_ > DepartureDate}} 
+--Clear text from-- {{web > BookFlightsOnlinewithAkasaAirataffordablefares_ > DepartureDate}} 
+::GetDate = __Common::GetDate > GetDate__ [[5]] 
+--Input value-- ::GetDate:: --in-- {{web > BookFlightsOnlinewithAkasaAirataffordablefares_ > DepartureDate}} 
+#--Click on-- {{web > BookFlightsOnlinewithAkasaAirataffordablefares_ > _15}}
+--Click on-- {{web > BookFlightsOnlinewithAkasaAirataffordablefares_ > Passenger_s}} 
+--Click on-- {{web > BookFlightsOnlinewithAkasaAirataffordablefares_ > Done}} 
+--Click on-- {{web > BookFlightsOnlinewithAkasaAirataffordablefares_ > Search_Flights}} 
+--Click on-- {{web > FlightSearch-SearchFlightTimings_Prices_AkasaAir > Select}} 
+--Click on-- {{web > FlightSearch-SearchFlightTimings_Prices_AkasaAir > Accept_cookies}} 
+--Click on-- {{web > FlightSearch-SearchFlightTimings_Prices_AkasaAir > Continue}} 
+--Click on-- {{web > FlightSearch-SearchFlightTimings_Prices_AkasaAir > Book_a_Flexi_Fare}} 
+--Click on-- {{web > BookingStatus-AirlineTickets_AkasaAir > firstName_ADT_1}} 
+--Input value-- [[Test]] --in-- {{web > BookingStatus-AirlineTickets_AkasaAir > firstName_ADT_1}} 
+--Press keyboard keys-- [[Shift]] --on-- {{web > BookingStatus-AirlineTickets_AkasaAir > Book}} 
+--Click on-- {{web > BookingStatus-AirlineTickets_AkasaAir > Last_Name}} 
+--Input value-- [[Last]] --in-- {{web > BookingStatus-AirlineTickets_AkasaAir > lastName_ADT_1}} 
+--Click on-- {{web > BookingStatus-AirlineTickets_AkasaAir > gender_ADT_1}} 
+--Click on-- {{web > BookingStatus-AirlineTickets_AkasaAir > _1_702_123_4567}} 
+--Input value-- [[4242424242]] --in-- {{web > BookingStatus-AirlineTickets_AkasaAir > _1_702_123_4567}} 
+--Click on-- {{web > BookingStatus-AirlineTickets_AkasaAir > for_T_C_checkbox}} 
+--Click on-- {{web > BookingStatus-AirlineTickets_AkasaAir > emailID}} 
+--Input value-- [[test@gmail.com]] --in-- {{web > BookingStatus-AirlineTickets_AkasaAir > emailID}} 
+--Click on-- {{web > BookingStatus-AirlineTickets_AkasaAir > Continue}} 
+--Click on-- {{web > BookingStatus-AirlineTickets_AkasaAir > Select_your_complimentary_meal}} 
+--Click on-- {{web > BookingStatus-AirlineTickets_AkasaAir > Add}} 
+--Click on-- {{web > BookingStatus-AirlineTickets_AkasaAir > Select_your_complimentary_meal}} 
+--Click on-- {{web > BookingStatus-AirlineTickets_AkasaAir > Add_1}} 
+--Click on-- {{web > BookingStatus-AirlineTickets_AkasaAir > Confirm}} 
+--Click on-- {{web > BookingStatus-AirlineTickets_AkasaAir > Select_Your_Seat}} 
+--Wait for-- [[2000]] --milliseconds-- 
+::unbooked_seat_count = --Get count of-- {{web > BookingStatus-AirlineTickets_AkasaAir > unbookedseat}} 
+::RandomNumber = __Common::RandomNumber > RandomNumber__ ::unbooked_seat_count:: 
+--Click on-- {{web > BookingStatus-AirlineTickets_AkasaAir > unbookedseat}} --with index n-- ::RandomNumber:: 
+--Wait for-- [[5000]] --milliseconds-- 
+#--Click on-- {{web > BookingStatus-AirlineTickets_AkasaAir > _0_1}}(( seatNumber: 3F ))
+--Click on-- {{web > BookingStatus-AirlineTickets_AkasaAir > Confirm_Seat_s}} 
+--Click on-- {{web > BookingStatus-AirlineTickets_AkasaAir > MakePayment}} 
+--Switch to iframe-- {{web > BookingStatus-AirlineTickets_AkasaAir > Razorpay_Checkout}} 
+--Click on-- {{web > RazorpayCheckout > checkout_close}} 
+--Click on-- {{web > RazorpayCheckout > Yes_exit}} 
+--Switch to parent frame-- 
+

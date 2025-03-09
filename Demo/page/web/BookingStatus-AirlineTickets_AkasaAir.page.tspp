@@ -1,0 +1,33 @@
+>>summary: 
+>>recorderName: BookingStatus-AirlineTickets|AkasaAir
+
+==firstName_ADT_1;CSS;#firstName_ADT_1;Input;[CSS:[data-testid='firstName_ADT_1']^^CSS:[name='firstName_ADT_1']^^CSS:[aria-label='First Name']^^XPATH://div[contains(@class, 'accordioninput_accordionInput_form__iixJQ')]//input[@id="firstName_ADT_1"]];[firstName_ADT_1];[BookingStatus-AirlineTickets|AkasaAir];;==
+==Last_Name;CSS;[for='lastName_ADT_1'];;[XPATH://div[contains(@class, 'accordioninput_accordionInput_form__iixJQ')]//label[text()="Last Name"]];[Last_Name];[BookingStatus-AirlineTickets|AkasaAir];;==
+==lastName_ADT_1;CSS;#lastName_ADT_1;Input;[CSS:[data-testid='lastName_ADT_1']^^CSS:[name='lastName_ADT_1']^^CSS:[aria-label='Last Name']^^XPATH://div[contains(@class, 'accordioninput_accordionInput_form__iixJQ')]//input[@id="lastName_ADT_1"]];[lastName_ADT_1];[BookingStatus-AirlineTickets|AkasaAir];;==
+==gender_ADT_1;CSS;#ADT_1_Male;;[CSS:[data-testid='ADT_1_Male']^^CSS:[aria-label='Male']^^XPATH://div[@id="selectGender"]//input[@id="ADT_1_Male"]];[gender_ADT_1];[BookingStatus-AirlineTickets|AkasaAir];;==
+==_1_702_123_4567;CSS;[placeholder='1 (702) 123-4567'];Input;[CSS:[type='tel']^^CSS:.form-control^^XPATH://div[contains(@class, 'react-tel-input')]//input[@placeholder="1 (702) 123-4567"]];[_1_702_123_4567];[BookingStatus-AirlineTickets|AkasaAir];;==
+==Email_ID;XPATH;//label[text()="Email ID"];;[CSS:[for='emailID']^^XPATH://div[contains(@class, 'AddPassengerDetails_remove_arrow_firefox__VBpxa')]//label[text()="Email ID"]];[Email_ID];[BookingStatus-AirlineTickets|AkasaAir];;==
+==emailID;CSS;#emailID;Input;[CSS:[name='emailID']^^CSS:[type='email']^^CSS:.lowercase^^XPATH://div[contains(@class, 'AddPassengerDetails_remove_arrow_firefox__VBpxa')]//input[@id="emailID"]];[emailID];[BookingStatus-AirlineTickets|AkasaAir];;==
+==Who_s_travelling;CSS;#passengerDetailsContainer;;[CSS:.AddPassengerDetails_addPassenger__rMNQZ^^CSS:.AddPassengerDetails_commonAddPass__xgXXE^^XPATH://div[@id="selectSeatMainSection"]//div[@id="passengerDetailsContainer"]];[Who_s_travelling];[BookingStatus-AirlineTickets|AkasaAir];;==
+==for_T_C_checkbox;CSS;[for='T\&C-checkbox'];;[];[for_T_C_checkbox];[BookingStatus-AirlineTickets|AkasaAir];;==
+==Continue;CSS;[name='containe'];Button;[CSS:[type='submit']^^XPATH://button[text()="Continue"]^^CSS:.bg-primary^^XPATH://div[contains(@class, 'sm:w-auto')]//button[@name="containe"]];[Continue];[BookingStatus-AirlineTickets|AkasaAir];;==
+==Add;CSS;div:nth-child(1) > div:nth-child(2) > div > button;Button;[];[Add];[BookingStatus-AirlineTickets|AkasaAir];;==
+==Confirm;XPATH;//button[text()="Confirm"];Button;[CSS:.p-5 .text-base^^XPATH://div[contains(@class, 'overflow-y-auto')]//button[text()="Confirm"]];[Confirm];[BookingStatus-AirlineTickets|AkasaAir];;==
+==Select_Your_Seat;CSS;[name='Select Your Seat'];Button;[CSS:[type='submit']^^XPATH://button[text()="Select Your Seat"]^^XPATH://div[contains(@class, 'sm:w-auto')]//button[@name="Select Your Seat"]];[Select_Your_Seat];[BookingStatus-AirlineTickets|AkasaAir];;==
+==_0;CSS;[aria-label='8F'];Button;[CSS:[aria-label='\38 F']^^XPATH://div[contains(@class, 'mui-style-gnlrbi')]//button[@aria-label="8F"]];[_0];[BookingStatus-AirlineTickets|AkasaAir];;==
+==Confirm_Seat_s;CSS;[name='confirmSeats'];Button;[CSS:[type='submit']^^XPATH://button[text()="Confirm Seat(s)"]^^XPATH://div[contains(@class, 'sm:w-auto')]//button[@name="confirmSeats"]];[Confirm_Seat_s];[BookingStatus-AirlineTickets|AkasaAir];;==
+==Razorpay_Checkout;XPATH;//div[contains(@class, 'razorpay-container')]//iframe[contains(@class, 'razorpay-checkout-frame')];;[];[Razorpay_Checkout];[BookingStatus-AirlineTickets|AkasaAir];;==
+==Book;CSS;body;;[CSS:.light^^XPATH://html//body];[Book];[BookingStatus-AirlineTickets|AkasaAir];;==
+==firstName_ADT_2;CSS;#firstName_ADT_2;Input;[CSS:[data-testid='firstName_ADT_2']^^CSS:[name='firstName_ADT_2']^^XPATH://div[@id="passengerDetailsContainer"]//input[@id="firstName_ADT_2"]];[firstName_ADT_2];[BookingStatus-AirlineTickets|AkasaAir];;==
+==Last_Name_1;CSS;[for='lastName_ADT_2'];;[];[Last_Name];[BookingStatus-AirlineTickets|AkasaAir];;==
+==lastName_ADT_2;CSS;#lastName_ADT_2;Input;[CSS:[data-testid='lastName_ADT_2']^^CSS:[name='lastName_ADT_2']^^XPATH://div[@id="passengerDetailsContainer"]//input[@id="lastName_ADT_2"]];[lastName_ADT_2];[BookingStatus-AirlineTickets|AkasaAir];;==
+==Female;CSS;div:nth-child(4) > #accordion-collapse div:nth-child(2) > div:nth-child(2) > div:nth-child(1);;[];[Female];[BookingStatus-AirlineTickets|AkasaAir];;==
+==gender_ADT_2;CSS;#ADT_2_Female;;[CSS:[data-testid='ADT_2_Female']^^XPATH://input[@name='gender_ADT_2'][@aria-label='Female']];[gender_ADT_2];[BookingStatus-AirlineTickets|AkasaAir];;==
+==Select_your_complimentary_meal;CSS;.ReactModal__Content;;[CSS:.ReactModal__Content--after-open^^XPATH://div[contains(@class, 'ReactModal__Overlay')]//div[contains(@class, 'ReactModal__Content')]];[Select_your_complimentary_meal];[BookingStatus-AirlineTickets|AkasaAir];;==
+==Add_1;CSS;div:nth-child(2) > div:nth-child(2) button;Button;[];[Add];[BookingStatus-AirlineTickets|AkasaAir];;==
+==_0_1;CSS;[aria-label="${seatNumber}"];Button;[CSS:[aria-label='\36 F']^^XPATH://div[@id="allSeatsContainer"]//button[@aria-label="6F"]];[_0];[BookingStatus-AirlineTickets|AkasaAir];;==
+==_0_1_2;CSS;[aria-label='6E'];Button;[CSS:[aria-label='\36 E']^^XPATH://div[@id="allSeatsContainer"]//button[@aria-label="6E"]];[_0];[BookingStatus-AirlineTickets|AkasaAir];;==
+==Passenger_Last;CSS;[aria-label='Select Your Seat'];Button;[CSS:[aria-label='Select\ Your\ Seat']^^XPATH://div[@id="passengerCardWrapper"]//div[@aria-label="Select Your Seat"]];[Passenger_Last];[BookingStatus-AirlineTickets|AkasaAir];;==
+==Skip;CSS;[name='skip'];Button;[XPATH://button[text()="Skip"]^^XPATH://div[contains(@class, 'passengerBookingJourney_NavigationBtn__qvDsY')]//button[@name="skip"]];[Skip];[BookingStatus-AirlineTickets|AkasaAir];;==
+==MakePayment;CSS;//button[text()="Make Payment"];;[];[];[];;==
+==unbookedseat;XPATH;//button[@name='seat'];;[];[];[];;==

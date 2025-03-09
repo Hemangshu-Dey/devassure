@@ -1,0 +1,20 @@
+>>summary: 
+>>recorderName: Flightsearchresults|EmiratesIndia
+
+==Economy_Class;CSS;.nofocus;Button;[XPATH://div[@id="BLR_DXB_DXB_ADL_EK567_EK440_1736239964"]//button[contains(@class, 'nofocus')]];[Economy_Class];[Flightsearchresults|EmiratesIndia];;==
+==TS_TT_FLT_AMT;CSS;#TS_TT_FLT_AMT;;[CSS:.flight-amount-box__container^^XPATH://div[contains(@class, 'trip-summary-block__total-summary-container')]//div[@id="TS_TT_FLT_AMT"]];[TS_TT_FLT_AMT];[Flightsearchresults|EmiratesIndia];;==
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

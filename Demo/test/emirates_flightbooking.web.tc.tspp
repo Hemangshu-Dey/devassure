@@ -1,0 +1,28 @@
+>>testDataType: undefined
+>>summary: Emirates flight booking
+>>tags: bookings, flights
+>>feature: 
+>>ticketUrl: 
+>>importSource: 
+>>priority: 0
+>>aiRequestId: 
+
+
+--Open URL-- [[https://www.emirates.com/in/english/]] 
+--Click on-- {{web > Emirates_FlyBetter > Accept}} 
+--Click on-- {{web > Emirates_FlyBetter > clear_Departure_airport}} 
+--Click on-- {{web > Emirates_FlyBetter > Ahmedabad_India}} 
+--Click on-- {{web > Emirates_FlyBetter > Adelaide_Australia}} 
+--Click on-- {{web > Emirates_FlyBetter > js_one_way}} 
+--Click on-- {{web > Emirates_FlyBetter > _15}} 
+--Click on-- {{web > Emirates_FlyBetter > search_flight_class}} 
+--Click on-- {{web > Emirates_FlyBetter > Economy_Class}} 
+--Click on-- {{web > Emirates_FlyBetter > Search_flights}} 
+#--Click on-- {{web > Flightsearchresults_EmiratesIndia > Economy_Class}}
+#--Click on-- {{web > Flightsearchresults_EmiratesIndia > Economy_Class}}
+#--Click on-- {{web > Flightsearchresults_EmiratesIndia > Economy_Class}}
+#--Click on-- {{web > Flightsearchresults_EmiratesIndia > Economy_Class}}
+--Click on-- {{web > Flightsearchresults_EmiratesIndia > TS_TT_FLT_AMT}} 
+--Click on-- {{web > Flightsearchresults_EmiratesIndia > Economy_Class}} 
+--Click on-- {{web > Flightsearchresults_EmiratesIndia > Economy_Class}} 
+

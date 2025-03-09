@@ -1,0 +1,7 @@
+>>summary: 
+>>recorderName: Options|EmiratesIndia
+
+==Continue_to_Payment;CSS;#btnContinue;Button;[XPATH://button[text()="Continue to Payment"]^^CSS:.call-to-action__primary^^CSS:.nofocus^^XPATH://div[contains(@class, 'button-forward')]//button[@id="btnContinue"]];[Continue_to_Payment];[Options|EmiratesIndia];;==
+
+
+
