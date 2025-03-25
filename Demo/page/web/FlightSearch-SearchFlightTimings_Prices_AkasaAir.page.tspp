@@ -11,6 +11,13 @@
 ==Lowest_fare_1_2;XPATH;//span[text()="Lowest fare"];;[CSS:.bg-\[\#037e0b\] span^^XPATH://div[@aria-label="Flight duration 1h 45m}"]//span[text()="Lowest fare"]];[Lowest_fare];[FlightSearch-SearchFlightTimings&Prices|AkasaAir];;==
 ==Select_1;CSS;#\31 ;Button;[XPATH://div[@aria-label="Flight duration 1h 25m}"]//button[@id="1"]];[Select];[FlightSearch-SearchFlightTimings&Prices|AkasaAir];;==
 ==Select_1_2;CSS;#\31 ;Button;[XPATH://div[@aria-label="Flight duration 1h 25m}"]//button[@id="1"]];[Select];[FlightSearch-SearchFlightTimings&Prices|AkasaAir];;==
+==No_Thanks;CSS;[name='noThanks'];Button;[XPATH://button[text()="No, Thanks"]^^CSS:.text-secondary^^XPATH://div[@id="modalUpgradeToFlexi"]//button[@name="noThanks"]];[No_Thanks];[FlightSearch-SearchFlightTimings&Prices|AkasaAir];;==
+
+
+
+
+
+
 
 
 

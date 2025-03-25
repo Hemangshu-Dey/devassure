@@ -1,0 +1,19 @@
+>>testDataType: CSV
+>>summary: 
+>>tags: 
+>>feature: 
+>>ticketUrl: 
+>>importSource: 
+>>priority: 
+>>aiRequestId: 
+
+
+--Open URL-- [[https://www.akasaair.com/]] 
+--Click on-- {{web > BookFlightsOnlinewithAkasaAirataffordablefares_ > From}} 
+--Click on-- {{web > BookFlightsOnlinewithAkasaAirataffordablefares_ > location}}(( label: ::testData.Sources )) 
+--Click on-- {{web > BookFlightsOnlinewithAkasaAirataffordablefares_ > To}} 
+--Click on-- {{web > BookFlightsOnlinewithAkasaAirataffordablefares_ > location}}(( label: ::testData.Destinations )) 
+--Click on-- {{web > BookFlightsOnlinewithAkasaAirataffordablefares_ > DepartureDate}} 
+--Click on-- {{web > BookFlightsOnlinewithAkasaAirataffordablefares_ > _21}} 
+--Click on-- {{web > BookFlightsOnlinewithAkasaAirataffordablefares_ > Search_Flights}} 
+

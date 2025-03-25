@@ -1,0 +1,5 @@
+>>summary: 
+>>recorderName: UITestAutomation:Buildresilientendtoendtestsinjust3hours
+
+==Careers;XPATH;//a[text()="Careers"];;[CSS:.navbar_link[href='\/hiring']^^XPATH://nav[contains(@class, 'navbar_menu')]//a[text()="Careers"]];[Careers];[UITestAutomation:Buildresilientendtoendtestsinjust3hours];;==
+

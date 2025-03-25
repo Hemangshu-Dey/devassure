@@ -1,0 +1,5 @@
+>>summary: 
+>>recorderName: Hiring|Java
+
+==Apply_Here;CSS;.newbutton;;[CSS:.is-center^^XPATH://div[contains(@class, 'jobs_deatils')]//a[contains(@class, 'newbutton')]];[Apply_Here];[Hiring|Java];;==
+

@@ -10,7 +10,7 @@
 ==emailID;CSS;#emailID;Input;[CSS:[name='emailID']^^CSS:[type='email']^^CSS:.lowercase^^XPATH://div[contains(@class, 'AddPassengerDetails_remove_arrow_firefox__VBpxa')]//input[@id="emailID"]];[emailID];[BookingStatus-AirlineTickets|AkasaAir];;==
 ==Who_s_travelling;CSS;#passengerDetailsContainer;;[CSS:.AddPassengerDetails_addPassenger__rMNQZ^^CSS:.AddPassengerDetails_commonAddPass__xgXXE^^XPATH://div[@id="selectSeatMainSection"]//div[@id="passengerDetailsContainer"]];[Who_s_travelling];[BookingStatus-AirlineTickets|AkasaAir];;==
 ==for_T_C_checkbox;CSS;[for='T\&C-checkbox'];;[];[for_T_C_checkbox];[BookingStatus-AirlineTickets|AkasaAir];;==
-==Continue;CSS;[name='containe'];Button;[CSS:[type='submit']^^XPATH://button[text()="Continue"]^^CSS:.bg-primary^^XPATH://div[contains(@class, 'sm:w-auto')]//button[@name="containe"]];[Continue];[BookingStatus-AirlineTickets|AkasaAir];;==
+==Continue;CSS;[type='submit'];Button;[XPATH://button[text()="Continue"]^^CSS:.bg-primary^^XPATH://div[contains(@class, 'sm:w-auto')]//button[@name="containe"]];[Continue];[BookingStatus-AirlineTickets|AkasaAir];;==
 ==Add;CSS;div:nth-child(1) > div:nth-child(2) > div > button;Button;[];[Add];[BookingStatus-AirlineTickets|AkasaAir];;==
 ==Confirm;XPATH;//button[text()="Confirm"];Button;[CSS:.p-5 .text-base^^XPATH://div[contains(@class, 'overflow-y-auto')]//button[text()="Confirm"]];[Confirm];[BookingStatus-AirlineTickets|AkasaAir];;==
 ==Select_Your_Seat;CSS;[name='Select Your Seat'];Button;[CSS:[type='submit']^^XPATH://button[text()="Select Your Seat"]^^XPATH://div[contains(@class, 'sm:w-auto')]//button[@name="Select Your Seat"]];[Select_Your_Seat];[BookingStatus-AirlineTickets|AkasaAir];;==
@@ -27,7 +27,15 @@
 ==Add_1;CSS;div:nth-child(2) > div:nth-child(2) button;Button;[];[Add];[BookingStatus-AirlineTickets|AkasaAir];;==
 ==_0_1;CSS;[aria-label="${seatNumber}"];Button;[CSS:[aria-label='\36 F']^^XPATH://div[@id="allSeatsContainer"]//button[@aria-label="6F"]];[_0];[BookingStatus-AirlineTickets|AkasaAir];;==
 ==_0_1_2;CSS;[aria-label='6E'];Button;[CSS:[aria-label='\36 E']^^XPATH://div[@id="allSeatsContainer"]//button[@aria-label="6E"]];[_0];[BookingStatus-AirlineTickets|AkasaAir];;==
-==Passenger_Last;CSS;[aria-label='Select Your Seat'];Button;[CSS:[aria-label='Select\ Your\ Seat']^^XPATH://div[@id="passengerCardWrapper"]//div[@aria-label="Select Your Seat"]];[Passenger_Last];[BookingStatus-AirlineTickets|AkasaAir];;==
 ==Skip;CSS;[name='skip'];Button;[XPATH://button[text()="Skip"]^^XPATH://div[contains(@class, 'passengerBookingJourney_NavigationBtn__qvDsY')]//button[@name="skip"]];[Skip];[BookingStatus-AirlineTickets|AkasaAir];;==
 ==MakePayment;CSS;//button[text()="Make Payment"];;[];[];[];;==
 ==unbookedseat;XPATH;//button[@name='seat'];;[];[];[];;==
+==Passenger_Details_Box;CSS;[aria-label='Passenger details box'];;[];[];[];;==
+==First_Name;CSS;[for='firstName_ADT_1'];;[];[First_Name];[BookingStatus-AirlineTickets|AkasaAir];;==
+==div_nth_child_3_accordion_coll;CSS;div:nth-child(3) > #accordion-collapse div:nth-child(3) > div;;[];[div_nth_child_3_accordion_coll];[BookingStatus-AirlineTickets|AkasaAir];;==
+==Gender;CSS;div:nth-child(4) > #accordion-collapse #selectGender > div > div;;[];[Gender];[BookingStatus-AirlineTickets|AkasaAir];;==
+==gender_ADT_2_1;CSS;#ADT_2_Male;;[CSS:[data-testid='ADT_2_Male']^^XPATH://input[@name='gender_ADT_2'][@aria-label='Male']];[gender_ADT_2];[BookingStatus-AirlineTickets|AkasaAir];;==
+==_300;CSS;[aria-label='8E'];Button;[CSS:[aria-label='\38 E']^^XPATH://div[@id="allSeatsContainer"]//button[@aria-label="8E"]];[_300];[BookingStatus-AirlineTickets|AkasaAir];;==
+==Testtest_Last;CSS;[aria-label='Select Your Seat'];Button;[CSS:[aria-label='Select\ Your\ Seat']^^XPATH://div[@id="passengerCardWrapper"]//div[@aria-label="Select Your Seat"]];[Testtest_Last];[BookingStatus-AirlineTickets|AkasaAir];;==
+==_350;CSS;[aria-label='9C'];Button;[CSS:[aria-label='\39 C']^^XPATH://div[@id="allSeatsContainer"]//button[@aria-label="9C"]];[_350];[BookingStatus-AirlineTickets|AkasaAir];;==
+==Select_your_seat;CSS;[aria-label='Select Your Seat'];;[];[];[];;==

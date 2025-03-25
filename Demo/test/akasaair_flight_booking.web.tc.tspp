@@ -3,6 +3,7 @@
 >>tags: booking, flights
 >>feature: 
 >>ticketUrl: 
+>>testCaseId: 
 >>importSource: 
 >>priority: 0
 >>aiRequestId: 
@@ -15,7 +16,7 @@
 --Click on-- {{web > BookFlightsOnlinewithAkasaAirataffordablefares_ > location}}(( label: ::testData.Destination )) 
 --Click on-- {{web > BookFlightsOnlinewithAkasaAirataffordablefares_ > DepartureDate}} 
 --Clear text from-- {{web > BookFlightsOnlinewithAkasaAirataffordablefares_ > DepartureDate}} 
-::GetDate = __Common::GetDate > GetDate__ [[5]] 
+::GetDate = __Common::GetDate > GetDate__ [[-12]] 
 --Input value-- ::GetDate:: --in-- {{web > BookFlightsOnlinewithAkasaAirataffordablefares_ > DepartureDate}} 
 #--Click on-- {{web > BookFlightsOnlinewithAkasaAirataffordablefares_ > _15}}
 --Click on-- {{web > BookFlightsOnlinewithAkasaAirataffordablefares_ > Passenger_s}} 
@@ -36,6 +37,8 @@
 --Click on-- {{web > BookingStatus-AirlineTickets_AkasaAir > for_T_C_checkbox}} 
 --Click on-- {{web > BookingStatus-AirlineTickets_AkasaAir > emailID}} 
 --Input value-- [[test@gmail.com]] --in-- {{web > BookingStatus-AirlineTickets_AkasaAir > emailID}} 
+::elementCount_29 = --Get count of-- {{web > BookingStatus-AirlineTickets_AkasaAir > Passenger_Details_Box}} 
+--Print log-- ::elementCount_29:: 
 --Click on-- {{web > BookingStatus-AirlineTickets_AkasaAir > Continue}} 
 --Click on-- {{web > BookingStatus-AirlineTickets_AkasaAir > Select_your_complimentary_meal}} 
 --Click on-- {{web > BookingStatus-AirlineTickets_AkasaAir > Add}} 
@@ -47,12 +50,12 @@
 ::unbooked_seat_count = --Get count of-- {{web > BookingStatus-AirlineTickets_AkasaAir > unbookedseat}} 
 ::RandomNumber = __Common::RandomNumber > RandomNumber__ ::unbooked_seat_count:: 
 --Click on-- {{web > BookingStatus-AirlineTickets_AkasaAir > unbookedseat}} --with index n-- ::RandomNumber:: 
---Wait for-- [[5000]] --milliseconds-- 
+#--Wait for-- [[5000]] --milliseconds--
 #--Click on-- {{web > BookingStatus-AirlineTickets_AkasaAir > _0_1}}(( seatNumber: 3F ))
 --Click on-- {{web > BookingStatus-AirlineTickets_AkasaAir > Confirm_Seat_s}} 
 --Click on-- {{web > BookingStatus-AirlineTickets_AkasaAir > MakePayment}} 
 --Switch to iframe-- {{web > BookingStatus-AirlineTickets_AkasaAir > Razorpay_Checkout}} 
---Click on-- {{web > RazorpayCheckout > checkout_close}} 
---Click on-- {{web > RazorpayCheckout > Yes_exit}} 
---Switch to parent frame-- 
+#--Click on-- {{web > RazorpayCheckout > checkout_close}}
+#--Click on-- {{web > RazorpayCheckout > Yes_exit}}
+#--Switch to parent frame--
 

@@ -1,4 +1,4 @@
->>testDataType: undefined
+>>testDataType: CSV
 >>summary: 
 >>tags: 
 >>feature: 
@@ -10,11 +10,11 @@
 
 --Open URL-- [[https://www.akasaair.com/]] 
 --Click on-- {{web > BookFlightsOnlinewithAkasaAirataffordablefares_ > From}} 
---Click on-- {{web > BookFlightsOnlinewithAkasaAirataffordablefares_ > location}}(( label: tes )) 
+--Click on-- {{web > BookFlightsOnlinewithAkasaAirataffordablefares_ > location}}(( label: ::testData.Source )) 
 --Click on-- {{web > BookFlightsOnlinewithAkasaAirataffordablefares_ > To}} 
---Click on-- {{web > BookFlightsOnlinewithAkasaAirataffordablefares_ > Zayed_International_Airport}} 
---Click on-- {{web > BookFlightsOnlinewithAkasaAirataffordablefares_ > To}} 
---Click on-- {{web > BookFlightsOnlinewithAkasaAirataffordablefares_ > Sardar_VallabhBhai_Patel_Inter}} 
+--Click on-- {{web > BookFlightsOnlinewithAkasaAirataffordablefares_ > location}}(( label: ::testData.Destination )) 
+#--Click on-- {{web > BookFlightsOnlinewithAkasaAirataffordablefares_ > To}}
+#--Click on-- {{web > BookFlightsOnlinewithAkasaAirataffordablefares_ > Sardar_VallabhBhai_Patel_Inter}}
 --Click on-- {{web > BookFlightsOnlinewithAkasaAirataffordablefares_ > DepartureDate}} 
 --Click on-- {{web > BookFlightsOnlinewithAkasaAirataffordablefares_ > One_Way}} 
 --Click on-- {{web > BookFlightsOnlinewithAkasaAirataffordablefares_ > _27}} 

@@ -1,0 +1,27 @@
+{
+    "isLocalStore": true,
+    "excludedColumns": [],
+    "filter": {
+        "limitFilter": {
+            "limitType": "ALL"
+        }
+    },
+    "localStore": {
+        "separator": ",",
+        "file": "demo3.csv",
+        "columnMapping": {
+            "mappingType": "CUSTOM",
+            "columns": [
+                {
+                    "index": 0,
+                    "mappingName": "Sources"
+                },
+                {
+                    "index": 1,
+                    "mappingName": "Destinations"
+                }
+            ]
+        },
+        "firstRowAsHeader": true
+    }
+}

@@ -1,0 +1,17 @@
+>>testDataType: undefined
+>>summary: 
+>>tags: 
+>>feature: 
+>>ticketUrl: 
+>>testCaseId: 
+>>importSource: 
+>>priority: 
+>>aiRequestId: 
+
+
+--Open URL-- [[https://www.codewalnut.com/insights/ui-test-automation-build-resilient-end-to-end-tests-in-just-3-hours]] 
+--Click on-- {{web > UITestAutomation_Buildresilientendtoendtestsinjust3hours > Careers}} 
+--Click on-- {{web > Hiring > Join_Us}} 
+--Click on-- {{web > Hiring_Java > Apply_Here}} 
+--Switch to tab with index-- [[2]] 
+

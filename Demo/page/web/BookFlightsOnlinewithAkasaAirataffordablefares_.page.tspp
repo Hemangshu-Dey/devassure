@@ -25,6 +25,16 @@
 ==_27;CSS;[aria-label='Choose Thursday, March 27th, 2025'];;[CSS:[aria-label='Choose\ Thursday\,\ March\ 27th\,\ 2025']^^XPATH://div[@aria-label="month  2025-03"]//div[@aria-label="Choose Thursday, March 27th, 2025"]];[_27];[BookFlightsOnlinewithAkasaAirataffordablefares.];;==
 ==BOM;CSS;#BOM;;[XPATH://ul[@id="destinations"]//li[@id="BOM"]];[BOM];[BookFlightsOnlinewithAkasaAirataffordablefares.];;==
 ==_8;CSS;[aria-label='Choose Tuesday, April 8th, 2025'];;[CSS:[aria-label='Choose\ Tuesday\,\ April\ 8th\,\ 2025']^^XPATH://div[@aria-label="month  2025-04"]//div[@aria-label="Choose Tuesday, April 8th, 2025"]];[_8];[BookFlightsOnlinewithAkasaAirataffordablefares.];;==
+==AMD;CSS;#AMD;;[XPATH://ul[@id="destinations"]//li[@id="AMD"]];[AMD];[BookFlightsOnlinewithAkasaAirataffordablefares.];;==
+==Bengaluru;CSS;#BLR .text-sm;;[];[Bengaluru];[BookFlightsOnlinewithAkasaAirataffordablefares.];;==
+==_21;CSS;[aria-label='Choose Friday, March 21st, 2025'];;[CSS:[aria-label='Choose\ Friday\,\ March\ 21st\,\ 2025']^^XPATH://div[@aria-label="month  2025-03"]//div[@aria-label="Choose Friday, March 21st, 2025"]];[_21];[BookFlightsOnlinewithAkasaAirataffordablefares.];;==
+==_22;CSS;[aria-label='Choose Saturday, March 22nd, 2025'];;[CSS:.react-datepicker__day--022.react-datepicker__day--weekend^^XPATH://div[@aria-label="month  2025-03"]//div[@aria-label="Choose Saturday, March 22nd, 2025"]];[_22];[BookFlightsOnlinewithAkasaAirataffordablefares.];;==
+
+
+
+
+
+
 
 
 

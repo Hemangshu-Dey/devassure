@@ -1,0 +1,74 @@
+>>testDataType: undefined
+>>summary: 
+>>tags: 
+>>feature: 
+>>ticketUrl: 
+>>importSource: 
+>>priority: 
+>>aiRequestId: 
+
+
+--Open URL-- [[https://www.akasaair.com/]] 
+--Click on-- {{web > BookFlightsOnlinewithAkasaAirataffordablefares_ > From}} 
+--Click on-- {{web > BookFlightsOnlinewithAkasaAirataffordablefares_ > Chhatrapati_Shivaji_Maharaj_In}} 
+--Click on-- {{web > BookFlightsOnlinewithAkasaAirataffordablefares_ > To}} 
+--Click on-- {{web > BookFlightsOnlinewithAkasaAirataffordablefares_ > Bengaluru}} 
+--Click on-- {{web > BookFlightsOnlinewithAkasaAirataffordablefares_ > DepartureDate}} 
+--Click on-- {{web > BookFlightsOnlinewithAkasaAirataffordablefares_ > _22}} 
+--Click on-- {{web > BookFlightsOnlinewithAkasaAirataffordablefares_ > Passenger_s}} 
+--Click on-- {{web > BookFlightsOnlinewithAkasaAirataffordablefares_ > Adult_s_Plus}} 
+--Click on-- {{web > BookFlightsOnlinewithAkasaAirataffordablefares_ > Done}} 
+--Click on-- {{web > BookFlightsOnlinewithAkasaAirataffordablefares_ > Search_Flights}} 
+--Click on-- {{web > FlightSearch-SearchFlightTimings_Prices_AkasaAir > Accept_cookies}} 
+--Click on-- {{web > FlightSearch-SearchFlightTimings_Prices_AkasaAir > Select}} 
+--Click on-- {{web > FlightSearch-SearchFlightTimings_Prices_AkasaAir > Continue}} 
+--Click on-- {{web > FlightSearch-SearchFlightTimings_Prices_AkasaAir > No_Thanks}} 
+--Click on-- {{web > BookingStatus-AirlineTickets_AkasaAir > First_Name}} 
+--Input value-- [[Test]] --in-- {{web > BookingStatus-AirlineTickets_AkasaAir > firstName_ADT_1}} 
+--Click on-- {{web > BookingStatus-AirlineTickets_AkasaAir > div_nth_child_3_accordion_coll}} 
+--Click on-- {{web > BookingStatus-AirlineTickets_AkasaAir > lastName_ADT_1}} 
+--Input value-- [[Last]] --in-- {{web > BookingStatus-AirlineTickets_AkasaAir > lastName_ADT_1}} 
+--Click on-- {{web > BookingStatus-AirlineTickets_AkasaAir > gender_ADT_1}} 
+--Click on-- {{web > BookingStatus-AirlineTickets_AkasaAir > firstName_ADT_2}} 
+--Input value-- [[Testtest]] --in-- {{web > BookingStatus-AirlineTickets_AkasaAir > firstName_ADT_2}} 
+--Click on-- {{web > BookingStatus-AirlineTickets_AkasaAir > lastName_ADT_2}} 
+--Input value-- [[Last]] --in-- {{web > BookingStatus-AirlineTickets_AkasaAir > lastName_ADT_2}} 
+--Click on-- {{web > BookingStatus-AirlineTickets_AkasaAir > Gender}} 
+--Click on-- {{web > BookingStatus-AirlineTickets_AkasaAir > gender_ADT_2_1}} 
+--Click on-- {{web > BookingStatus-AirlineTickets_AkasaAir > emailID}} 
+--Input value-- [[test@gmail.com]] --in-- {{web > BookingStatus-AirlineTickets_AkasaAir > emailID}} 
+--Click on-- {{web > BookingStatus-AirlineTickets_AkasaAir > for_T_C_checkbox}} 
+--Click on-- {{web > BookingStatus-AirlineTickets_AkasaAir > _1_702_123_4567}} 
+--Input value-- [[4242424242]] --in-- {{web > BookingStatus-AirlineTickets_AkasaAir > _1_702_123_4567}} 
+--Click on-- {{web > BookingStatus-AirlineTickets_AkasaAir > Continue}} 
+--Click on-- {{web > BookingStatus-AirlineTickets_AkasaAir > Select_Your_Seat}} 
+--Wait for-- [[5000]] --milliseconds-- 
+::elementCount_38 = --Get count of-- {{web > BookingStatus-AirlineTickets_AkasaAir > Select_your_seat}} 
+--Print log-- ::elementCount_38:: 
+>{
+
+::::passenger_count = --Get count of-- {{web > BookingStatus-AirlineTickets_AkasaAir > Select_your_seat}} 
+while(passenger_count>0){
+let i= 0;
+::--Click on-- {{web > BookingStatus-AirlineTickets_AkasaAir > Select_your_seat}} --with index n-- [[${i}]] 
+
+::::elementCount_0 = --Get count of-- {{web > BookingStatus-AirlineTickets_AkasaAir > unbookedseat}} 
+
+::::RandomNumber_0 = __Common::RandomNumber > RandomNumber__ ::elementCount_0:: 
+
+::--Click on-- {{web > BookingStatus-AirlineTickets_AkasaAir > unbookedseat}} --with index n-- ::RandomNumber_0:: 
+passenger_count--;
+}
+}<
+#--Print log-- ::elementCount_38::
+#--Click on-- {{web > BookingStatus-AirlineTickets_AkasaAir > _300}}
+#--Click on-- {{web > BookingStatus-AirlineTickets_AkasaAir > Testtest_Last}}
+#--Click on-- {{web > BookingStatus-AirlineTickets_AkasaAir > _350}}
+--Click on-- {{web > BookingStatus-AirlineTickets_AkasaAir > Confirm_Seat_s}} 
+--Click on-- {{web > BookingStatus-AirlineTickets_AkasaAir > MakePayment}} 
+#--Click on-- {{web > BookingStatus-AirlineTickets_AkasaAir > Continue}}
+--Switch to iframe-- {{web > BookingStatus-AirlineTickets_AkasaAir > Razorpay_Checkout}} 
+#--Click on-- {{web > RazorpayCheckout > checkout_close}}
+#--Click on-- {{web > RazorpayCheckout > Yes_exit}}
+#--Switch to parent frame--
+
